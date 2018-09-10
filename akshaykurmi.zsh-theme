@@ -58,7 +58,7 @@ prompt_end() {
 
 # Exit Status:
 prompt_exit_status() {
-  echo -n "%(?..%{%K{red}%}%{%F{default}%} %? )"
+  echo -n "%(?..%{%K{red}%}%{%F{yellow}%} %? )"
 }
 
 # Incognito: is HISTFILE set?
